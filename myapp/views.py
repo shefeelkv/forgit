@@ -48,3 +48,6 @@ def delete_student(request, id):
     student = get_object_or_404(Student, id=id)
     student.delete()
     return redirect('home')
+
+
+# hhj
